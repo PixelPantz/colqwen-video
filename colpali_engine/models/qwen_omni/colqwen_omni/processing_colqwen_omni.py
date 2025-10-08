@@ -58,7 +58,6 @@ class ColQwen2_5OmniProcessor(BaseVisualRetrieverProcessor, Qwen2_5OmniProcessor
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
-            fps=2,
             padding=True,
             use_audio_in_video=False,
         )
